@@ -23,6 +23,6 @@ for j in range(height):
         #lumo = (r+g+b)/3
         #lumo = (max(r, g, b) + min(r, g , b))/2
         lumo = round((lumo/255)*4)
-        for k in range(2):
+        for k in range(3):
             print(chars[-(lumo+1)], end="")
     print("")
